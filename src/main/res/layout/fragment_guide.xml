@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tripint.intersightplus.fragments.GuideFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/guide_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/goToSee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进去看看"
+        android:textSize="25sp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="100dp"
+        android:visibility="gone"
+        />
+
+</FrameLayout>
